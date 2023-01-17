@@ -1,19 +1,40 @@
 body{
+
     color: rgb(38, 31, 22);
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 1%;
     font-size: 16px;
     padding: 0;
+
+    color:#333;
+    text-align:center;
+    font-family:arial;
+    font-size:16px;
+
+}
+#cabecera{
+    background: #33a;
+    box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.5);
+    color: #ddd;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5cm;
+    font-size:32px;
+
+}
+#cabecera #tagline{
+    padding: 0 0 0 0.1cm;
+    font-weight: normal;
+    font-size: 0.5cm;
+
 }
 #container{
-    width: 70%;
-    padding: 1cm;
-    text-align: left;
-    border: 1px solid;
-    margin: auto;
+    width:70%;
+    text-align:left;
+    border:1px solid #ddd;
+    margin:0 auto
 }
-
-#contanier h1{
-    font-size: 20px;
+#container h1{
+    font-size:20px
 }
